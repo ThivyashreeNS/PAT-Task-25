@@ -8,3 +8,4 @@ def test_imdb_search():
     result_url = obj.imdb_search()
     assert expected_url == result_url
     print("Success: Imdb Search")
+    obj.close_driver()
