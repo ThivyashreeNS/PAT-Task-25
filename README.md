@@ -86,9 +86,9 @@ This file contains the following components:
 
 - __ImdbSearch Class:__ Handles the web automation logic using Selenium, including:
 
-                        - Entering the name, birthday, and gender into the IMDb search form.
+  - Entering the name, birthday, and gender into the IMDb search form.
   
-                        - Clicking the "See Results" button and returning the URL after the search.
+  - Clicking the "See Results" button and returning the URL after the search.
 
 ### Methods in `ImdbSearch` class:
 - __ __init()__:__
@@ -112,7 +112,7 @@ Performs the following tasks:
    - Returns the current URL after the search.
 
  - __close_driver():__
-  - Closes the browser after the operation is complete.
+   - Closes the browser after the operation is complete.
 
 ### test_imdb_search.py:
 - pytest validates that the expected search URL matches the actual URL after performing the search.
